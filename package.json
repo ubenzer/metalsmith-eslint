@@ -4,7 +4,7 @@
   "description": "Metalsmith eslint plugin",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha --harmony"
   },
   "repository": {
     "type": "git",
