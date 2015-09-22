@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-eslint",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Metalsmith eslint plugin",
   "main": "lib/index.js",
   "scripts": {
