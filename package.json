@@ -1,0 +1,35 @@
+{
+  "name": "metalsmith-eslint",
+  "version": "0.0.1",
+  "description": "Metalsmith eslint plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ubenzer/metalsmith-eslint"
+  },
+  "keywords": [
+    "metalsmith",
+    "eslint",
+    "linting"
+  ],
+  "author": "Umut Benzer <umut@benzer.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ubenzer/metalsmith-eslint/issues"
+  },
+  "homepage": "https://github.com/ubenzer/metalsmith-eslint",
+  "dependencies": {
+    "eslint": "^1.5.0",
+    "lodash": "^3.10.1",
+    "multimatch": "^2.0.0"
+  },
+  "devDependencies": {
+    "metalsmith": "^2.0.1",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
+  }
+}

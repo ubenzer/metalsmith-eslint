@@ -1,0 +1,18 @@
+{
+  "root": true,
+
+  "env": {
+    "node": true
+  },
+
+  "globals": {
+    "umut": true
+  },
+
+  "rules": {
+    "strict": [1, "global"],
+    "quotes": [2, "double", "avoid-escape"],
+    "space-before-function-paren": [2, "never"],
+    "space-in-parens": [2, "never"]
+  }
+}
