@@ -31,10 +31,10 @@ metalsmith
 ```
 
 ## Options
-You can check the tests out to see some usage examples.                                                                                                          `
+You can check the tests out to see some usage examples.                                                                                                          
 
 ### src
-A [multimatch](https://www.npmjs.com/package/multimatch) expression that can be used to limit the files that will be eslinted. Default is `["**/*.js"]
+A [multimatch](https://www.npmjs.com/package/multimatch) expression that can be used to limit the files that will be eslinted. Default is `["**/*.js"]`
 
 ### formatter
 One of the formatter name that is integrated to eslint. See the list [here](http://eslint.org/docs/developer-guide/nodejs-api#getformatter). Default is `stylish`.
