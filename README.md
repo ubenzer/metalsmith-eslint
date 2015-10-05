@@ -42,7 +42,7 @@ One of the formatter name that is integrated to eslint. See the list [here](http
 ### eslintConfig
 A valid eslint config that will be passed to eslint. You can also read an `.eslintrc` file and pass the contents to this key directly. **Default none, a configuration is required**
 
-To read `.eslintrc` you can use the following: `JSON.parse(fs.readFileSync(path.join(process.cwd(), ".eslintrc"), "utf8"))
+To read `.eslintrc` you can use the following: `JSON.parse(fs.readFileSync(path.join(process.cwd(), ".eslintrc"), "utf8"))`
 
 ## Contributing
 Just open an issue or prepare a pull request.
