@@ -2,7 +2,8 @@
   "root": true,
 
   "env": {
-    "browser": true
+    "node": true,
+    "es6": true
   },
 
   "globals": {
@@ -20,6 +21,7 @@
     "default-case": 2,
     "dot-location": [2, "property"],
     "guard-for-in": 2,
+    "no-case-declarations": 2,
     "no-div-regex": 2,
     "no-else-return": 2,
     "no-eq-null": 2,
