@@ -28,7 +28,7 @@ describe("metalsmith-eslint", function() {
         err.should.be.an.Error();
         err.message.should.equal("Linting failed with 3 errors!");
         sinon.assert.calledOnce(console.log);
-        sinon.assert.calledWithExactly(console.log, "eslintThisFail.js:1:1: Use the global form of \"use strict\". [Warning/strict]\neslintThisFail.js:1:14: Unexpected space before function parentheses. [Error/space-before-function-paren]\neslintThisFail.js:1:16: There should be no spaces inside this paren. [Error/space-in-parens]\neslintThisFail.js:2:15: Strings must use doublequote. [Error/quotes]\neslintThisWarn.js:1:1: Use the global form of \"use strict\". [Warning/strict]\n\n5 problems");
+        sinon.assert.calledWithExactly(console.log, "eslintThisFail.js:1:1: Use the global form of 'use strict'. [Warning/strict]\neslintThisFail.js:1:14: Unexpected space before function parentheses. [Error/space-before-function-paren]\neslintThisFail.js:1:15: There should be no spaces inside this paren. [Error/space-in-parens]\neslintThisFail.js:2:15: Strings must use doublequote. [Error/quotes]\neslintThisWarn.js:1:1: Use the global form of 'use strict'. [Warning/strict]\n\n5 problems");
         return done();
       });
   });
@@ -43,7 +43,7 @@ describe("metalsmith-eslint", function() {
       .build(function(err) {
         should(err).be.null();
         sinon.assert.calledOnce(console.log);
-        sinon.assert.calledWithExactly(console.log, "eslintThisWarn.js:1:1: Use the global form of \"use strict\". [Warning/strict]\n\n1 problem");
+        sinon.assert.calledWithExactly(console.log, "eslintThisWarn.js:1:1: Use the global form of 'use strict'. [Warning/strict]\n\n1 problem");
         return done();
       });
   });

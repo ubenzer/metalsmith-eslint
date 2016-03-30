@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-eslint",
-  "version": "0.0.5",
+  "version": "2.5.3",
   "description": "Metalsmith eslint plugin",
   "main": "lib/index.js",
   "scripts": {
@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/ubenzer/metalsmith-eslint",
   "dependencies": {
-    "eslint": "^1.10.3",
-    "lodash": "^4.0.0",
+    "eslint": "^2.5.3",
+    "lodash": "^4.6.1",
     "multimatch": "^2.1.0"
   },
   "devDependencies": {
     "metalsmith": "^2.1.0",
-    "mocha": "^2.3.4",
-    "should": "^8.1.1",
-    "sinon": "^1.17.2"
+    "mocha": "^2.4.5",
+    "should": "^8.3.0",
+    "sinon": "^1.17.3"
   }
 }
