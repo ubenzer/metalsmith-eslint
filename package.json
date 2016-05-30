@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/ubenzer/metalsmith-eslint",
   "dependencies": {
-    "eslint": "^2.5.3",
-    "lodash": "^4.6.1",
+    "eslint": "^2.11.0",
+    "lodash": "^4.13.1",
     "multimatch": "^2.1.0"
   },
   "devDependencies": {
     "metalsmith": "^2.1.0",
-    "mocha": "^2.4.5",
+    "mocha": "^2.5.3",
     "should": "^9.0.0",
-    "sinon": "^1.17.3"
+    "sinon": "^1.17.4"
   }
 }
