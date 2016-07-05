@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/ubenzer/metalsmith-eslint",
   "dependencies": {
-    "eslint": "^2.11.0",
+    "eslint": "^3.0.1",
     "lodash": "^4.13.1",
     "multimatch": "^2.1.0"
   },
