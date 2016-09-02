@@ -1,10 +1,11 @@
 {
   "name": "metalsmith-eslint",
-  "version": "3.0.3",
+  "version": "3.1.0",
   "description": "Metalsmith eslint plugin",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "lint": "eslint **/*.js",
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -22,14 +23,24 @@
   },
   "homepage": "https://github.com/ubenzer/metalsmith-eslint",
   "dependencies": {
-    "eslint": "^3.3.0",
+    "eslint": "^3.4.0",
     "lodash": "^4.15.0",
     "multimatch": "^2.1.0"
   },
   "devDependencies": {
+    "codecov": "^1.0.1",
     "metalsmith": "^2.2.0",
     "mocha": "^3.0.2",
+    "nyc": "^8.1.0",
     "should": "^11.1.0",
     "sinon": "^1.17.5"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text",
+      "json"
+    ],
+    "report-dir": "./test/coverage"
   }
 }

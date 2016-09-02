@@ -1,7 +1,15 @@
 language: node_js
 node_js:
   - "6"
+os:
+  - linux
+  - osx
+  - windows
 install:
   - npm update
   - npm install
-script: npm test
+script:
+  - npm run lint
+  - npm test
+after_success:
+  - codecov -f test/coverage/coverage-final.json

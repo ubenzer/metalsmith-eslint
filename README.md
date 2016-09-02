@@ -1,10 +1,14 @@
 metalsmith-eslint
 ===============
-[![Build Status](https://travis-ci.org/ubenzer/metalsmith-eslint.svg?branch=master)](https://travis-ci.org/ubenzer/metalsmith-eslint)
-[![Dependency Status](https://david-dm.org/ubenzer/metalsmith-eslint.svg)](https://david-dm.org/ubenzer/metalsmith-eslint)
-[![devDependency Status](https://david-dm.org/ubenzer/metalsmith-eslint/dev-status.svg)](https://david-dm.org/ubenzer/metalsmith-eslint#info=devDependencies)
-       
-An [Eslint](http://eslint.org/) plugin for Metalsmith.
+[![Gitter](https://img.shields.io/gitter/room/ubenzer/metalsmith-eslint.svg?maxAge=2592000&style=flat-square)](https://gitter.im/ubenzer/metalsmith-eslint)
+[![Travis](https://img.shields.io/travis/ubenzer/metalsmith-eslint.svg?maxAge=3600&style=flat-square)](https://travis-ci.org/ubenzer/metalsmith-eslint)
+[![David](https://img.shields.io/david/ubenzer/metalsmith-eslint.svg?maxAge=3600&style=flat-square)](https://david-dm.org/ubenzer/metalsmith-eslint)
+[![David](https://img.shields.io/david/dev/ubenzer/metalsmith-eslint.svg?maxAge=3600&style=flat-square)](https://david-dm.org/ubenzer/metalsmith-eslint#info=devDependencies)
+[![Codecov](https://img.shields.io/codecov/c/github/ubenzer/metalsmith-eslint.svg?maxAge=3600&style=flat-square)](https://codecov.io/gh/ubenzer/metalsmith-eslint)
+[![npm](https://img.shields.io/npm/v/metalsmith-eslint.svg?maxAge=3600&style=flat-square)](https://www.npmjs.com/package/metalsmith-eslint)
+[![npm](https://img.shields.io/npm/dt/metalsmith-eslint.svg?maxAge=3600&style=flat-square)](https://www.npmjs.com/package/metalsmith-eslint)
+     
+An [Eslint](http://eslint.org/) plugin for [Metalsmith](http://metalsmith.io/).
 
 ## Installation
 
